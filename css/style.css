@@ -23,4 +23,19 @@ body {
   background-color: #dddada;
   min-height: 100vh;
 }
+
+.header {
+  height: 10rem;
+  background-color: yellow;
+}
+
+.big-screen {
+  height: 50rem;
+  background-color: green;
+}
+
+.little-screen {
+  height: 25rem;
+  background-color: red;
+}
 /*# sourceMappingURL=style.css.map */
