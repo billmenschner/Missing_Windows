@@ -21,12 +21,13 @@ body {
   font-weight: 400;
   line-height: 1.6;
   background-color: #dddada;
+  margin: 3rem;
   min-height: 100vh;
 }
 
 .header {
   height: 10rem;
-  background-color: yellow;
+  background-color: #dddada;
 }
 
 .big-screen {
