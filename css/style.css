@@ -1,3 +1,11 @@
+/* Maybe colors
+
+#acb7ae
+#e1e8f0
+#f9f8fd
+#313d4b
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -20,31 +28,37 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  background-color: #7a7a7a;
+  background-color: #f9f8fd;
   min-height: 100vh;
 }
 
 .header {
-  height: 8rem;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3333b4), to(#282895));
-  background-image: linear-gradient(#3333b4, #282895);
-  border-color: black;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  height: 7rem;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  height: 5rem;
 }
 
 .big-screen {
   height: 50rem;
-  background-color: #dddada;
+  background-color: #f9f8fd;
 }
 
 .little-screen {
   height: 25rem;
-  background-color: #dddada;
+  background-color: #f9f8fd;
 }
 
 .container {
-  max-width: 130rem;
-  margin: auto;
+  margin: 2rem 8rem 8rem 8rem;
+  max-width: 150rem;
 }
 /*# sourceMappingURL=style.css.map */
