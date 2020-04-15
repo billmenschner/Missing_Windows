@@ -26,7 +26,11 @@ body {
 
 .header {
   height: 8rem;
-  background-color: #ca4c03;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3333b4), to(#282895));
+  background-image: linear-gradient(#3333b4, #282895);
+  border-color: black;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .big-screen {
