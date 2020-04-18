@@ -33,7 +33,7 @@ body {
 }
 
 .header {
-  height: 7rem;
+  height: 8rem;
   background-color: #f9f8fd;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,7 +44,7 @@ body {
 }
 
 .logo {
-  height: 10rem;
+  height: 6rem;
 }
 
 .big-screen {
