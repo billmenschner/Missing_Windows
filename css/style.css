@@ -33,23 +33,27 @@ body {
 }
 
 .header {
-  height: 8rem;
+  height: 6rem;
   background-color: #f9f8fd;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .logo {
-  height: 6rem;
+  height: 3rem;
 }
 
 .big-screen {
   height: 50rem;
   background-color: #f9f8fd;
+  margin: 6rem 0;
 }
 
 .little-screen {
