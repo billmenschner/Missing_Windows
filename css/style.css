@@ -33,8 +33,9 @@ body {
 }
 
 .header {
-  height: 6rem;
+  height: 4rem;
   background-color: #f9f8fd;
+  margin: 10rem 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,8 +53,7 @@ body {
 
 .big-screen {
   height: 50rem;
-  background-color: #f9f8fd;
-  margin: 6rem 0;
+  background-color: #acb7ae;
 }
 
 .little-screen {
@@ -62,7 +62,17 @@ body {
 }
 
 .container {
-  margin: 2rem 8rem 8rem 8rem;
+  margin: 0 8rem 8rem 8rem;
   max-width: 150rem;
+}
+
+.navigation_button {
+  background-color: #313d4b;
+  height: 3rem;
+  width: 3rem;
+}
+
+.navigation_checkbox {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

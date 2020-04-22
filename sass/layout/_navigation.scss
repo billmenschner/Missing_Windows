@@ -5,10 +5,14 @@
     }  
 
     &_button {
+        background-color: $color-header;
+        height: 3rem;
+        width: 3rem;
 
     }  
 
     &_checkbox {
+        display: none;
 
     }
 
