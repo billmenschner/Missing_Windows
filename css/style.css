@@ -173,7 +173,7 @@ body {
 .navigation_nav {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   opacity: 0;
   width: 0;
   height: 0;
@@ -188,7 +188,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
