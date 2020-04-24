@@ -35,6 +35,8 @@ body {
 .header {
   height: 4rem;
   background-color: #f9f8fd;
+  margin: 0 8rem;
+  max-width: 150rem;
 }
 
 .logo {
@@ -58,8 +60,8 @@ body {
 
 .navigation {
   position: fixed;
-  top: 1.5rem;
-  right: 1.5rem;
+  top: 0;
+  right: 8rem;
   width: 5rem;
   height: 5rem;
   -webkit-box-sizing: border-box;
@@ -104,7 +106,7 @@ body {
 .navigation_button_figure::before, .navigation_button_figure::after {
   content: '';
   position: absolute;
-  top: -1rem;
+  top: -0.8rem;
   width: 100%;
   height: 0.3rem;
   background: #313d4b;
@@ -113,7 +115,7 @@ body {
 }
 
 .navigation_button_figure::after {
-  top: 1rem;
+  top: 0.8rem;
 }
 
 .navigation_checkbox {
