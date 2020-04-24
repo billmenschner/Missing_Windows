@@ -35,12 +35,27 @@ body {
 .header {
   height: 4rem;
   background-color: #f9f8fd;
-  margin: 0 8rem;
   max-width: 150rem;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
   height: 3rem;
+}
+
+.content {
+  margin: 6rem auto;
 }
 
 .big-screen {
@@ -54,144 +69,150 @@ body {
 }
 
 .container {
-  margin: 0 8rem 8rem 8rem;
   max-width: 150rem;
+  margin: auto;
+  background-color: yellowgreen;
+  min-height: 50rem;
 }
 
 .navigation {
-  position: fixed;
-  top: 0;
-  right: 8rem;
   width: 5rem;
   height: 5rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
+  /*   &_button {
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
 
-.navigation_button {
-  position: absolute;
-  width: 5rem;
-  height: 5rem;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 998;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 1rem;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
+        z-index: 998;
 
-.navigation_button_figure {
-  position: relative;
-  width: 100%;
-  height: 0.3rem;
-  background: #313d4b;
-  z-index: 5;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-.navigation_button_figure::before, .navigation_button_figure::after {
-  content: '';
-  position: absolute;
-  top: -0.8rem;
-  width: 100%;
-  height: 0.3rem;
-  background: #313d4b;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
+        box-sizing: border-box;
+        padding: 1rem;
+        transition: all 0.3s ease;
 
-.navigation_button_figure::after {
-  top: 0.8rem;
-}
+        &_figure {
+            position: relative;
+            width: 100%;
+            height: 0.3rem;
+            background: $color-header;
+            z-index: 5;
+            transition: all 0.2s linear;
+    
+        }
+    
+        &_figure::before,
+        &_figure::after {
+            content: '';
+            position: absolute;
+            top: -0.8rem;
+            width: 100%;
+            height: 0.3rem;
+            background: $color-header;
+            transition: all 0.2s linear;
+    
+        }
+    
+        &_figure::after {
+            top: 0.8rem;
+        }
+    }  
 
-.navigation_checkbox {
-  position: absolute;
-  width: 5rem;
-  height: 5rem;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 999;
-  cursor: pointer;
-  opacity: 0;
-}
+    &_checkbox {
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
 
-.navigation_checkbox:hover + .navigation_button {
-  -webkit-transform: rotate(-25deg);
-          transform: rotate(-25deg);
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-}
+        z-index: 999;
+        cursor: pointer;
+        opacity: 0;
+    }
 
-.navigation_checkbox:checked + .navigation_button {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
+    &_checkbox:hover + &_button {
+        transform: rotate(-25deg);
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+    }
 
-.navigation_checkbox:checked + .navigation_button_figure::before, .navigation_checkbox:checked + .navigation_button_figure::after {
-  top: 0;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
+    &_checkbox:checked + &_button {
+        transform: rotate(45deg);
 
-.navigation_checkbox:checked + .navigation_button + .navigation_nav {
-  opacity: 1;
-  width: 100vw;
-  height: 100vh;
-}
+        &_figure::before,
+        &_figure::after {
+            top: 0;
+            transform: rotate(90deg);
+        }
+    }
 
-.navigation_item {
-  color: #f9f8fd;
-  font-size: 2rem;
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  cursor: pointer;
-  -webkit-box-sizing: 1.5rem;
-          box-sizing: 1.5rem;
-  border-bottom: 0.2rem solid transparent;
-}
+    &_checkbox:checked + &_button + &_nav {
+        opacity: 1;
+        width: 100vw;
+        height: 100vh;
+    }
 
-.navigation_item:hover {
-  color: green;
-  border-bottom: 0.2rem solid yellow;
-}
+    //&_checkbox:checked:hover + &_button {
+     //   transform: rotate(135deg);
 
-.navigation_nav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  opacity: 0;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  background: rgba(25, 25, 25, 0.85);
-  z-index: 1;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+//    }
+
+    //&_checkbox:checked + &_button_figure::before, 
+    //&_checkbox:checked + &_button_figure::after {
+      //  top: 0;
+        //transform: rotate(90deg);
+
+    //} 
+
+
+    &_item {
+        color: $color-primary;
+        font-size: 2rem;
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        cursor: pointer;
+        box-sizing: 1.5rem;
+        border-bottom: 0.2rem solid transparent;
+    }
+
+    &_item:hover {
+        color: green;
+        border-bottom: 0.2rem solid yellow;
+    }
+
+    &_list{
+
+    }    
+
+    &_nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+
+        opacity: 0;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        background: rgba(25, 25, 25, 0.85);
+        z-index: 1;
+        transition: all 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }*/
 }
 /*# sourceMappingURL=style.css.map */
