@@ -91,9 +91,14 @@ body {
   z-index: 999;
 }
 
-.toggle:checked:hover + .button {
-  -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+.toggle:checked + .button {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.toggle:checked + .button .bars {
+  background-color: #f9f8fd;
+  height: 5px;
 }
 
 .toggle:checked + .button .bars::before,
@@ -101,6 +106,14 @@ body {
   top: 0;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
+  height: 5px;
+  background-color: #f9f8fd;
+}
+
+.toggle:checked + .button + .nav {
+  opacity: 1;
+  width: 100vw;
+  height: 100vh;
 }
 
 .button {
@@ -120,8 +133,8 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 1rem;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .bars {
@@ -158,7 +171,7 @@ body {
   width: 0;
   height: 0;
   overflow: hidden;
-  background: rgba(25, 25, 25, 0.85);
+  background: #313d4b;
   z-index: 1;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
