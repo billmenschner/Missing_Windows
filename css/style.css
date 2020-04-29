@@ -35,7 +35,7 @@ body {
 .header {
   height: 6rem;
   background-color: #f9f8fd;
-  max-width: 150rem;
+  max-width: 180rem;
   width: 100%;
   top: 0px;
   position: fixed;
@@ -69,9 +69,8 @@ body {
 }
 
 .container {
-  max-width: 150rem;
+  max-width: 180rem;
   margin: auto;
-  background-color: yellowgreen;
   min-height: 50rem;
 }
 
@@ -178,13 +177,12 @@ body {
 }
 
 .nav_content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  max-width: 150rem;
+  width: 100%;
+  margin: auto;
 }
 
-.nav_list {
+.nav_item {
   list-style: none;
-  margin-right: auto;
 }
 /*# sourceMappingURL=style.css.map */
