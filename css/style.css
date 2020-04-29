@@ -164,6 +164,7 @@ body {
 }
 
 .nav {
+  width: 100%;
   position: fixed;
   top: 0;
   right: 0;
@@ -178,13 +179,11 @@ body {
 }
 
 .nav_content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  max-width: 150rem;
+  width: 100%;
 }
 
 .nav_list {
   list-style: none;
-  margin-right: auto;
 }
 /*# sourceMappingURL=style.css.map */
