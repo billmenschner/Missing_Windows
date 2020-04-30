@@ -19,14 +19,14 @@
 
 .toggle:checked + .button .bars {
     background-color: $color-primary;
-    height: 5px;
+    height: 4px;
 }
 
 .toggle:checked + .button .bars::before,
 .toggle:checked + .button .bars::after {
     top:0;
     transform: rotate(90deg);
-    height: 5px;
+    height: 3px;
     background-color: $color-primary;
 }
 
@@ -77,6 +77,7 @@
 }
 
 .nav {
+    width: 100%;
     position: fixed;
     top: 0;
     right: 0;
@@ -85,20 +86,28 @@
     width: 0;
     height: 0;
     overflow: hidden;
-    background: $color-header;
+    background: rgba(49, 61, 75, 0.95);
     z-index: 1;
     transition: all 0.3s ease;
 }
 
 .nav_content {
-    max-width: 150rem;
-    width: 100%;
-    margin: auto;
+    position: relative;
+    top: 5%;
+    left: 8%;
 }
 
 .nav_list {
 }
 
 .nav_item {
+    font-size: 4rem;
+    color: $color-primary;
     list-style: none;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: $color-primary;
+    text-transform: uppercase;
 }
