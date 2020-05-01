@@ -86,7 +86,7 @@
     width: 0;
     height: 0;
     overflow: hidden;
-    background: rgba(49, 61, 75, 0.95);
+    background: $color-header-fade;
     z-index: 1;
     transition: all 0.3s ease;
 }

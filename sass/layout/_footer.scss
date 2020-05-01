@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    background: $color-header-fade;
+    overflow: hidden;
+
+    min-height: 10rem;
+
+    &_content {
+        max-width: 150rem;
+        width: 100%;
+        margin: auto;
+        color: $color-primary;
+    }
+}

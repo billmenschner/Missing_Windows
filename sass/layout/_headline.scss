@@ -1,8 +1,9 @@
 .headline {
     max-width: 150rem;
+    max-height: 70rem;
     display: flex;
     margin: auto;
-    min-height: 70rem;
-    background: rgba(49, 61, 75, 0.05);
+    background: $color-primary-fade;
+    overflow: hidden;
 
 }

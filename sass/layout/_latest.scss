@@ -1,4 +1,11 @@
 .latest {
-    flex: 0 0 100%;
+    flex: 0 0 30%;
     align-items: center;
+
+    &_image {
+        &_display {
+            width: 100%;
+            display: block;
+        }
+    }
 }

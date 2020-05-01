@@ -1,8 +1,13 @@
 .little-screen {
     flex: 0 0 32%;
-    background: rgba(49, 61, 75, 0.05);
-    margin-top: 2rem;
+    background: $color-primary-fade;
+    margin-top: 3rem;
 
     min-height: 10rem;
+
+    &_little-screen_image {
+        width: 100%;
+        display: block;
+    }
 
 }
