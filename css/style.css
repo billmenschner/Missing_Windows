@@ -60,11 +60,21 @@ body {
   margin: 6rem auto;
 }
 
+.medium-screen {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 66%;
+          flex: 0 0 66%;
+  background: rgba(49, 61, 75, 0.05);
+  margin-top: 2rem;
+}
+
 .little-screen {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 30%;
-          flex: 0 0 30%;
+      -ms-flex: 0 0 32%;
+          flex: 0 0 32%;
   background: rgba(49, 61, 75, 0.05);
+  margin-top: 2rem;
+  min-height: 10rem;
 }
 
 .container {
@@ -211,7 +221,9 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .latest {
