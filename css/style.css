@@ -77,9 +77,16 @@ body {
   min-height: 10rem;
 }
 
-.little-screen_little-screen_image {
+.little-screen_media_image {
   width: 100%;
   display: block;
+  -webkit-filter: grayscale(20%) contrast(170%) brightness(93%) opacity(90%);
+          filter: grayscale(20%) contrast(170%) brightness(93%) opacity(90%);
+}
+
+.little-screen_media_image:hover {
+  -webkit-filter: grayscale(20%) contrast(170%) brightness(93%) opacity(100%);
+          filter: grayscale(20%) contrast(170%) brightness(93%) opacity(100%);
 }
 
 .container {
@@ -225,6 +232,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: auto;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: justify;

@@ -5,9 +5,19 @@
 
     min-height: 10rem;
 
-    &_little-screen_image {
-        width: 100%;
-        display: block;
+    &_media {
+        &_image {
+            width: 100%;
+            display: block;
+            filter: grayscale(20%) contrast(170%) brightness(93%) opacity(90%);
+        }
+
+        &_image:hover {
+            filter: grayscale(20%) contrast(170%) brightness(93%) opacity(100%);
+        }
+    
     }
+    
 
 }
+
