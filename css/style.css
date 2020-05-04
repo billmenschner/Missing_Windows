@@ -32,6 +32,19 @@ body {
   min-height: 100vh;
 }
 
+.article_topic {
+  font-size: 3rem;
+}
+
+.article_headline {
+  font-size: 8rem;
+  line-height: 8rem;
+}
+
+.article_description {
+  font-size: 1.5rem;
+}
+
 .header {
   height: 6rem;
   background-color: #f9f8fd;
@@ -57,7 +70,9 @@ body {
 .content {
   max-width: 150rem;
   width: 100%;
-  margin: 6rem auto;
+  margin: auto;
+  margin-top: 7.5rem;
+  margin-bottom: 2rem;
 }
 
 .medium-screen {
@@ -80,15 +95,13 @@ body {
 .little-screen_media_image {
   width: 100%;
   display: block;
-  -webkit-filter: grayscale(20%) contrast(170%) brightness(93%) opacity(90%);
-          filter: grayscale(20%) contrast(170%) brightness(93%) opacity(90%);
   -webkit-transition: .4s ease-in-out .25s;
   transition: .4s ease-in-out .25s;
 }
 
 .little-screen_media_image:hover {
-  -webkit-filter: grayscale(20%) contrast(170%) brightness(93%) opacity(100%);
-          filter: grayscale(20%) contrast(170%) brightness(93%) opacity(100%);
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 
 .container {
@@ -195,7 +208,7 @@ body {
   height: 0;
   overflow: hidden;
   background: rgba(49, 61, 75, 0.95);
-  z-index: 1;
+  z-index: 10;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -220,7 +233,8 @@ body {
 
 .headline {
   max-width: 150rem;
-  max-height: 70rem;
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
