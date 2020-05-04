@@ -82,6 +82,8 @@ body {
   display: block;
   -webkit-filter: grayscale(20%) contrast(170%) brightness(93%) opacity(90%);
           filter: grayscale(20%) contrast(170%) brightness(93%) opacity(90%);
+  -webkit-transition: .4s ease-in-out .25s;
+  transition: .4s ease-in-out .25s;
 }
 
 .little-screen_media_image:hover {

@@ -10,6 +10,8 @@
             width: 100%;
             display: block;
             filter: grayscale(20%) contrast(170%) brightness(93%) opacity(90%);
+            transition: .4s ease-in-out .25s;
+
         }
 
         &_image:hover {
