@@ -4,10 +4,18 @@ $color-primary: #f9f8fd;
 $color-primary-fade: rgba(49, 61, 75, 0.03);
 $color-background: #acb7ae;
 $color-header: #313d4b;
-$color-header-fade: rgba(49, 61, 75, 0.95);
+$color-header-fade: rgba(49, 61, 75, 0.99);
+$color-font: #444444;
 
 //Margins
 $margin-home: 2rem;
+
+//Transitions
+$hover-image: .4s ease-in-out .1s;
+
+//Filters
+
+$filter-hover-image: brightness(93%);
 
 /* Maybe colors
 

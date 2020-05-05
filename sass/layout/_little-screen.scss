@@ -1,6 +1,7 @@
 .little-screen {
     flex: 0 0 32%;
     background: $color-primary-fade;
+    transition: $hover-image;
     margin-top: 3rem;
 
     min-height: 10rem;
@@ -9,17 +10,15 @@
         &_image {
             width: 100%;
             display: block;
-            transition: .4s ease-in-out .25s;
             
 
-        }
-
-        &_image:hover {
-            filter: brightness(80%);
-        }
-    
+        }    
     }
-    
+}
+
+.little-screen:hover {
+    filter: $filter-hover-image;
+
 
 }
 

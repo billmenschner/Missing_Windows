@@ -1,9 +1,11 @@
 .latest {
-    flex: 0 0 30%;
-    align-items: center;
+    flex: 0 0 32%;
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+    text-align: left;
 
     &_image {
-        flex: 0 0 70%;
+        flex: 0 0 68%;
         &_display {
             width: 100%;
             display: block;

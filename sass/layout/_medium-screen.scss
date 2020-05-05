@@ -2,4 +2,19 @@
     flex: 0 0 66%;
     background: $color-primary-fade;
     margin-top: 3rem;
+
+    &_media {
+        &_image {
+            width: 100%;
+            display: block;
+            transition: $hover-image;
+            
+
+        }
+
+        &_image:hover {
+            filter: brightness(80%);
+        }
+    
+    }
 }
