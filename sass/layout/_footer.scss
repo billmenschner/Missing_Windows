@@ -9,6 +9,25 @@
         max-width: 150rem;
         width: 100%;
         margin: auto;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
         color: $color-primary;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_about {
+        flex: 0 0 32%;
+        padding-left: 1rem;
+    }
+
+    &_links {
+        flex: 0 0 32%;
+
+    }
+
+    &_social {
+        flex: 0 0 32%;
+
     }
 }

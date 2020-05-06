@@ -1,6 +1,8 @@
 .medium-screen {
     flex: 0 0 66%;
     background: $color-primary-fade;
+    color: $color-font;
+    transition: $hover-image;
     margin-top: 3rem;
 
     &_media {
@@ -11,10 +13,10 @@
             
 
         }
-
-        &_image:hover {
-            filter: brightness(80%);
-        }
-    
     }
+}
+
+.medium-screen:hover {
+    filter: $filter-hover-image;
+    color: $color-font-hover;
 }

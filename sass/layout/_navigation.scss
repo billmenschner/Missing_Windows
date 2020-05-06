@@ -55,8 +55,8 @@
 .bars {
     position: relative;
     width: 100%;
-    height: 0.1rem;
-    background-color: $color-header;
+    height: 0.2rem;
+    background-color: $color-font;
     z-index: 5;
     transition: all 0.2s linear;
 }
@@ -67,8 +67,8 @@
     position: absolute;
     top: -0.6rem;
     width: 100%;
-    height: 0.1rem;
-    background: $color-header;
+    height: 0.2rem;
+    background-color: $color-font;
     transition: all 0.2s linear;
 
 }
@@ -94,8 +94,9 @@
 
 .nav_content {
     position: relative;
-    top: 5%;
-    left: 8%;
+    //top: 5%;
+    //left: 8%;
+    max-width: 150rem;
 }
 
 .nav_list {

@@ -1,6 +1,9 @@
+//HOME PAGE
+
 .little-screen {
     flex: 0 0 32%;
     background: $color-primary-fade;
+    color: $color-font;
     transition: $hover-image;
     margin-top: 3rem;
 
@@ -14,8 +17,39 @@
     }
 }
 
+
+
 .little-screen:hover {
     filter: $filter-hover-image;
+    color: $color-font-hover;
+
+
+}
+
+//TOPIC PAGE
+
+.little-screen-topic {
+    flex: 0 0 32%;
+    background: $color-primary-fade;
+    color: $color-font;
+    transition: $hover-image;
+    margin-bottom: 3rem;
+
+    min-height: 10rem;
+
+    &_media {
+        &_image {
+            width: 100%;
+            display: block;
+        }    
+    }
+}
+
+
+
+.little-screen-topic:hover {
+    filter: $filter-hover-image;
+    color: $color-font-hover;
 
 
 }
