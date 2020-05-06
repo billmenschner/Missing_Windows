@@ -47,7 +47,7 @@ body {
 
 .latest_article_description {
   font-size: 1.5rem;
-  color: #444444;
+  color: #3e3e3e;
   padding-top: 3rem;
   padding-left: .5rem;
 }
@@ -67,7 +67,7 @@ body {
 
 .little-screen_article_description {
   font-size: 1.5rem;
-  color: #444444;
+  color: #3e3e3e;
   padding-top: 3rem;
   padding-left: .5rem;
 }
@@ -87,7 +87,7 @@ body {
 
 .medium-screen_article_description {
   font-size: 1.5rem;
-  color: #444444;
+  color: #3e3e3e;
   padding-top: 3rem;
   padding-left: .5rem;
 }
@@ -160,8 +160,8 @@ body {
 }
 
 .little-screen:hover {
-  -webkit-filter: brightness(93%);
-          filter: brightness(93%);
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
 }
 
 .container {
@@ -301,15 +301,15 @@ body {
   display: flex;
   margin: auto;
   background: rgba(49, 61, 75, 0.03);
-  color: #444444;
+  color: #3e3e3e;
   overflow: hidden;
   -webkit-transition: 0.4s ease-in-out 0.1s;
   transition: 0.4s ease-in-out 0.1s;
 }
 
 .headline:hover {
-  -webkit-filter: brightness(93%);
-          filter: brightness(93%);
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
 }
 
 .articles {
