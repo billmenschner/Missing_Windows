@@ -1,6 +1,7 @@
 //Colors
 
 $color-primary: #f9f8fd;
+$color-primary-footer_fade: #bab9bd;
 $color-primary-fade: rgba(49, 61, 75, 0.03);
 $color-background: #acb7ae;
 $color-header: #313d4b;
@@ -8,8 +9,9 @@ $color-header-fade: rgba(49, 61, 75, 0.99);
 $color-font: #3e3e3e;
 $color-font-hover: #222222;
 
-//Margins
+//Margins and padding
 $margin-home: 2rem;
+$padding-footer: 1.5rem;
 
 //Transitions
 $hover-image: .4s ease-in-out .1s;

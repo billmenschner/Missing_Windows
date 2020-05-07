@@ -2,6 +2,7 @@
     width: 100%;
     background: $color-header-fade;
     overflow: hidden;
+    margin-top: 3rem;
 
     min-height: 10rem;
 
@@ -9,25 +10,62 @@
         max-width: 150rem;
         width: 100%;
         margin: auto;
-        padding-top: 10rem;
-        padding-bottom: 10rem;
+        padding-top: 5.5rem;
+        padding-bottom: 8rem;
         color: $color-primary;
         display: flex;
         justify-content: space-between;
     }
 
     &_about {
-        flex: 0 0 32%;
+        flex: 0 0 30%;
         padding-left: 1rem;
+
+        &_header {
+            
+        }
+
+        &_content {
+            padding-top: $padding-footer;
+        }
     }
 
-    &_links {
-        flex: 0 0 32%;
+    &_nav {
+        flex: 0 0 30%;
+        justify-content: space-between;
+
+        &_header {
+
+        }
+
+        &_columns {
+            display: flex;
+            justify-content: space-between;
+
+            &_left {
+                padding-top: $padding-footer;
+                
+
+            }
+    
+            &_right {
+                padding-top: $padding-footer;
+    
+            }
+
+        }
+
+        &_list {
+            list-style: none;
+        }
+
+
 
     }
 
     &_social {
-        flex: 0 0 32%;
+        flex: 0 0 30%;
+        padding-top: $padding-footer;
 
     }
 }

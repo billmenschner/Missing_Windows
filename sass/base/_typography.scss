@@ -3,7 +3,6 @@
 .latest_article_topic {
     font-size: 1.5rem;
     text-transform: uppercase;
-    //color: $color-font;
     padding-top: 4rem;
     padding-left: .5rem;
 }
@@ -11,7 +10,6 @@
 .latest_article_headline {
     font-size: 6rem;
     line-height: 7rem;
-    //color: $color-font;
     padding-top: 1rem;
 }
 
@@ -25,7 +23,6 @@
 .little-screen_article_topic {
     font-size: 1.5rem;
     text-transform: uppercase;
-    //color: $color-font;
     padding-top: 1rem;
     padding-left: .5rem;
 }
@@ -33,7 +30,6 @@
 .little-screen_article_headline {
     font-size: 6rem;
     line-height: 6rem;
-    //color: $color-font;
     padding-top: 1rem;
 }
 
@@ -48,7 +44,6 @@
 .medium-screen_article_topic {
     font-size: 1.5rem;
     text-transform: uppercase;
-    //color: $color-font;
     padding-top: 1rem;
     padding-left: .5rem;
 }
@@ -56,7 +51,6 @@
 .medium-screen_article_headline {
     font-size: 6rem;
     line-height: 6rem;
-    //color: $color-font;
     padding-top: 1rem;
 }
 
@@ -73,7 +67,6 @@
 .little-screen-topic_article_topic {
     font-size: 1.5rem;
     text-transform: uppercase;
-    //color: $color-font;
     padding-top: 1rem;
     padding-left: .5rem;
 }
@@ -81,7 +74,6 @@
 .little-screen-topic_article_headline {
     font-size: 6rem;
     line-height: 6rem;
-    //color: $color-font;
     padding-top: 1rem;
 }
 
@@ -91,4 +83,28 @@
     padding-top: 3rem;
     padding-left: .5rem;
 
+}
+
+//FOOTER
+
+.footer_font_content {
+    font-size: 1.3rem;
+}
+
+.footer_font_header {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer_font_link {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color-primary-footer_fade;
+}
+
+.footer_font_link:hover {
+    color: $color-primary;
+    cursor: pointer;
 }
