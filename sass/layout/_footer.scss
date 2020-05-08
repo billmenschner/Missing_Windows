@@ -65,7 +65,11 @@
 
     &_social {
         flex: 0 0 30%;
-        padding-top: $padding-footer;
+
+        &_content {
+            padding-top: $padding-footer;
+
+        }
 
     }
 }
