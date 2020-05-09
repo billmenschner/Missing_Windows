@@ -135,6 +135,11 @@ body {
   cursor: pointer;
 }
 
+.facebook-icon {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
 .header {
   height: 6rem;
   background-color: #f9f8fd;
@@ -454,8 +459,8 @@ body {
 
 .footer_nav {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 30%;
-          flex: 0 0 30%;
+      -ms-flex: 0 0 38%;
+          flex: 0 0 38%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -484,11 +489,14 @@ body {
 
 .footer_social {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 30%;
-          flex: 0 0 30%;
+      -ms-flex: 0 0 22%;
+          flex: 0 0 22%;
 }
 
 .footer_social_content {
   padding-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
