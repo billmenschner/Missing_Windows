@@ -103,6 +103,7 @@
     text-transform: uppercase;
     font-weight: bold;
     color: $color-primary-footer_fade;
+    transition: .4s ease-in-out;
 }
 
 .footer_font_link:hover {
@@ -113,24 +114,28 @@
 //Social Media Icons
 
 .facebook-icon {
-    transition: 1s ease-in-out;
+    fill: $color-primary-footer_fade;
+    transition: .4s ease-in-out;
 }
 
 .twitter-icon {
-
+    fill: $color-primary-footer_fade;
+    transition: .4s ease-in-out;
 }
 
 .instagram-icon {
-    
+    fill: $color-primary-footer_fade;
+    transition: .4s ease-in-out;
 }
 .facebook-icon:hover {
+    fill: $color-primary;
     
 }
 
 .twitter-icon:hover {
-
+    fill: $color-primary;
 }
 
 .instagram-icon:hover {
-
+    fill: $color-primary;
 }

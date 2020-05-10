@@ -128,6 +128,8 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #bab9bd;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 .footer_font_link:hover {
@@ -136,8 +138,33 @@ body {
 }
 
 .facebook-icon {
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
+  fill: #bab9bd;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.twitter-icon {
+  fill: #bab9bd;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.instagram-icon {
+  fill: #bab9bd;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.facebook-icon:hover {
+  fill: #f9f8fd;
+}
+
+.twitter-icon:hover {
+  fill: #f9f8fd;
+}
+
+.instagram-icon:hover {
+  fill: #f9f8fd;
 }
 
 .header {
@@ -356,6 +383,7 @@ body {
   position: relative;
   top: 5%;
   left: 8%;
+  padding-bottom: 30rem;
 }
 
 .nav_item {
