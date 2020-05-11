@@ -103,7 +103,7 @@
     text-transform: uppercase;
     font-weight: bold;
     color: $color-primary-footer_fade;
-    transition: .4s ease-in-out;
+    transition: $hover-footer-links;
 }
 
 .footer_font_link:hover {
@@ -115,17 +115,20 @@
 
 .facebook-icon {
     fill: $color-primary-footer_fade;
-    transition: .4s ease-in-out;
+    flex: 0 0 4rem;
+    transition: $hover-footer-links;
 }
 
 .twitter-icon {
     fill: $color-primary-footer_fade;
-    transition: .4s ease-in-out;
+    flex: 0 0 4rem;
+    transition: $hover-footer-links;
 }
 
 .instagram-icon {
     fill: $color-primary-footer_fade;
-    transition: .4s ease-in-out;
+    flex: 0 0 4rem;
+    transition: $hover-footer-links;
 }
 .facebook-icon:hover {
     fill: $color-primary;

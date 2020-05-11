@@ -88,14 +88,19 @@
     height: 0;
     overflow: hidden;
     background: $color-header-fade;
-    z-index: 10;
     transition: all 0.3s ease;
 }
 
+.nav-content_outline {
+    width: 100%;
+    overflow: hidden;
+}
+
 .nav_content {
-    position: relative;
-    top: 5%;
-    left: 8%;
+    max-width: 150rem;
+    width: 100%;
+    margin: auto;
+    padding: 0 2rem;
     padding-bottom: 30rem;
 }
 
@@ -112,4 +117,81 @@
     text-decoration: none;
     color: $color-primary;
     text-transform: uppercase;
+}
+
+//Footer
+
+.navigation_footer {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 3rem;
+
+    min-height: 10rem;
+
+    &_content {
+        max-width: 150rem;
+        width: 100%;
+        margin: auto;
+        padding: 5.5rem 2rem 8rem 2rem;
+        color: $color-primary;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_about {
+        flex: 0 0 30%;
+        padding-left: 1rem;
+
+        &_header {
+            
+        }
+
+        &_content {
+            padding-top: $padding-footer;
+        }
+    }
+
+    &_nav {
+        flex: 0 0 38%;
+        justify-content: space-between;
+
+        &_header {
+
+        }
+
+        &_columns {
+            display: flex;
+            justify-content: space-between;
+
+            &_left {
+                padding-top: $padding-footer;
+                
+
+            }
+    
+            &_right {
+                padding-top: $padding-footer;
+    
+            }
+
+        }
+
+        &_list {
+            list-style: none;
+        }
+
+
+
+    }
+
+    &_social {
+        flex: 0 0 22%;
+
+        &_content {
+            padding-top: $padding-footer;
+            display: flex;
+
+        }
+
+    }
 }

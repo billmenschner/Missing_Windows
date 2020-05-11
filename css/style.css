@@ -128,8 +128,8 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #bab9bd;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .footer_font_link:hover {
@@ -139,20 +139,29 @@ body {
 
 .facebook-icon {
   fill: #bab9bd;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 4rem;
+          flex: 0 0 4rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .twitter-icon {
   fill: #bab9bd;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 4rem;
+          flex: 0 0 4rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .instagram-icon {
   fill: #bab9bd;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 4rem;
+          flex: 0 0 4rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .facebook-icon:hover {
@@ -374,15 +383,20 @@ body {
   height: 0;
   overflow: hidden;
   background: rgba(49, 61, 75, 0.99);
-  z-index: 10;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
+.nav-content_outline {
+  width: 100%;
+  overflow: hidden;
+}
+
 .nav_content {
-  position: relative;
-  top: 5%;
-  left: 8%;
+  max-width: 150rem;
+  width: 100%;
+  margin: auto;
+  padding: 0 2rem;
   padding-bottom: 30rem;
 }
 
@@ -396,6 +410,81 @@ body {
   text-decoration: none;
   color: #f9f8fd;
   text-transform: uppercase;
+}
+
+.navigation_footer {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 3rem;
+  min-height: 10rem;
+}
+
+.navigation_footer_content {
+  max-width: 150rem;
+  width: 100%;
+  margin: auto;
+  padding: 5.5rem 2rem 8rem 2rem;
+  color: #f9f8fd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation_footer_about {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+  padding-left: 1rem;
+}
+
+.navigation_footer_about_content {
+  padding-top: 1.5rem;
+}
+
+.navigation_footer_nav {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 38%;
+          flex: 0 0 38%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation_footer_nav_columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation_footer_nav_columns_left {
+  padding-top: 1.5rem;
+}
+
+.navigation_footer_nav_columns_right {
+  padding-top: 1.5rem;
+}
+
+.navigation_footer_nav_list {
+  list-style: none;
+}
+
+.navigation_footer_social {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 22%;
+          flex: 0 0 22%;
+}
+
+.navigation_footer_social_content {
+  padding-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .headline {
