@@ -92,6 +92,19 @@ body {
   padding-left: .5rem;
 }
 
+.nav_link {
+  font-size: 4rem;
+  text-decoration: none;
+  color: #bab9bd;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.nav_link:hover {
+  color: #f9f8fd;
+}
+
 .little-screen-topic_article_topic {
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -166,14 +179,17 @@ body {
 
 .facebook-icon:hover {
   fill: #f9f8fd;
+  cursor: pointer;
 }
 
 .twitter-icon:hover {
   fill: #f9f8fd;
+  cursor: pointer;
 }
 
 .instagram-icon:hover {
   fill: #f9f8fd;
+  cursor: pointer;
 }
 
 .header {
@@ -400,16 +416,12 @@ body {
   padding-bottom: 30rem;
 }
 
-.nav_item {
-  font-size: 4rem;
-  color: #f9f8fd;
-  list-style: none;
+.nav_list {
+  padding-top: 5rem;
 }
 
-.nav_link {
-  text-decoration: none;
-  color: #f9f8fd;
-  text-transform: uppercase;
+.nav_item {
+  list-style: none;
 }
 
 .navigation_footer {

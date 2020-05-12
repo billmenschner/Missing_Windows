@@ -62,6 +62,20 @@
 
 }
 
+//Navigation
+
+.nav_link {
+    font-size: 4rem;
+    text-decoration: none;
+    color: $color-primary-footer_fade;
+    text-transform: uppercase;
+    transition: $hover-footer-links;
+}
+
+.nav_link:hover {
+    color: $color-primary;
+}
+
 //TOPIC PAGE
 
 .little-screen-topic_article_topic {
@@ -132,13 +146,16 @@
 }
 .facebook-icon:hover {
     fill: $color-primary;
+    cursor: pointer;
     
 }
 
 .twitter-icon:hover {
     fill: $color-primary;
+    cursor: pointer;
 }
 
 .instagram-icon:hover {
     fill: $color-primary;
+    cursor: pointer;
 }

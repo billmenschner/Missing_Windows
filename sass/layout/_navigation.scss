@@ -105,18 +105,11 @@
 }
 
 .nav_list {
+    padding-top: 5rem;
 }
 
 .nav_item {
-    font-size: 4rem;
-    color: $color-primary;
     list-style: none;
-}
-
-.nav_link {
-    text-decoration: none;
-    color: $color-primary;
-    text-transform: uppercase;
 }
 
 //Footer
