@@ -125,6 +125,14 @@ body {
   padding-left: .5rem;
 }
 
+.topic-breakline {
+  width: 90%;
+  height: 1px;
+  background-color: #3e3e3e;
+  border: none;
+  margin: auto;
+}
+
 .footer_font_content {
   font-size: 1.3rem;
   color: #bab9bd;
