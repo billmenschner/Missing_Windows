@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="../css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            $(function(){
+                $('#latest-articles-nav').load('../html_tools/latest-articles-nav.html');
+            });
+        </script>
         <title>Missing Windows</title>
     </head>
 <body>
@@ -153,7 +159,9 @@
                 </div>
                 <hr class="topic-breakline">
                 <div class="topic-break">
-                    <div class="topic-break-heading">Other Posts</div>
+                    <div class="topic-break-heading">Latest Articles</div>
+                    <div id="latest-articles-nav">
+                    </div>
                 </div>
             </div>
         </div>
